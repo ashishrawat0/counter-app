@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'counter-app';
+  count:number=0;
+
+  reset(){
+    this.count=0;
+  }
+  add(){
+    this.count=this.count+1
+  }
+  minus(){
+    this.count=this.count-1
+  }
 }

@@ -4,10 +4,10 @@
   </header>
 
   <main>
-    <h2>Current count is : 0</h2>
+    <h2>Current count is : {{count}}</h2>
   </main>
 
-  <button>Reset Count</button>
-  <button>Increase Count</button>
-  <button>Decrease Count</button>
+  <button (click)="reset()">Reset Count</button>
+  <button (click)="add()">Increase Count</button>
+  <button (click)="minus()">Decrease Count</button>
 </div>
